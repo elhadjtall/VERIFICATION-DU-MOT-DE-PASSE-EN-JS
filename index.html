@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>verifier un mot de passe</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="">Utilisateur</label>
+            <input type="text"   id=""        required>
+            <label >Mot de passe</label>
+            <input type="password" id=""      required>
+            <input type="submit"   value="Envoyer">
+        </form>
+    </div>
+
+    <div id="message">
+        <h3>Le mot de doit contenir les caractères suivants</h3>
+        <p   id="letter"      class="invalid">Une lettre minuscule</p>
+        <div id="capital"   class="invalid">Une lettre majuscule</div>
+        <div id="number"    class="invalid">Un chiffre</div>
+        <div id="lenght"    class="invalid">8 caractères minin</div>
+    </div>
+</body>
+</html>
