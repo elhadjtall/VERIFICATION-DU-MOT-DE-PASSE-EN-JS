@@ -18,7 +18,7 @@ body{
 /* styliser le container pour les entrés    */
 .container {
     background-color: #fff;
-    width: 350px;
+    width: 500px;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
@@ -34,5 +34,11 @@ input {
     border-radius: 4px;
     margin-top: 5px;
     margin-bottom: 6px;
-    
+}
+/* Personnalisation le boutton d'envoi */
+
+input[type="submit"] {
+    background-color: #0ef;
+    color: #fff;
+    border: 1px solid #0ef;
 }
