@@ -17,4 +17,16 @@ myInput.onblur = function(){
 }
 
 // lorsque l'utilisateur commence a taper quelque chose dans le champ mot de passe
-myInput.onkey  
+myInput.onkeyup = function(){
+    // valider les lettres minuscule 
+    var lowerCaseLetters = /[a-z]/g
+    if(myInput.ariaValueMax.match(lowerCaseLetters)){
+        //si le met de passe contient une lettre minuscule, enlever la classe "invalid et ajouter le classe valid"
+        letter.classList.remove('invalid');
+        letter.classList.add('valid');
+    }else {
+        // si non, enlever la classe valide et ajouter la classe "invalid"
+        letter.classList.remove('invalid');
+        letter.classList.add('valid');
+    }
+}

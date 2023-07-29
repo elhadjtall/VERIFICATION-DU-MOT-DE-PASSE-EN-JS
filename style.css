@@ -75,3 +75,8 @@ h3 {
     left: -7px;
     content: "✕";
 }
+
+/* Lorsque les exigences sont respectées */
+.valid {
+    color: green;
+}
