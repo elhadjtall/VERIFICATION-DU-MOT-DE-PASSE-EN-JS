@@ -29,7 +29,7 @@ form {
 }
 input {
     padding: 12px;
-    border: 1px solid #fff;
+    border: 1px solid #022131;
     outline: 0;
     border-radius: 4px;
     margin-top: 5px;
@@ -41,4 +41,15 @@ input[type="submit"] {
     background-color: #0ef;
     color: #fff;
     border: 1px solid #0ef;
+}
+#message {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    color: #0000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
 }
