@@ -46,10 +46,10 @@ input[type="submit"] {
     display: flex;
     flex-direction: column;
     background-color: #fff;
+    border-radius: 6px;
     width: 500px;
-    color: #0000;
     position: relative;
     padding: 20px;
-    margin-top: 10px;
     letter-spacing: 0.5px;
+    margin-top: 10px;
 }
